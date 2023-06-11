@@ -1,0 +1,62 @@
+<html lang="pl-PL">
+    <head>
+        <meta charset="utf-8">
+        <title>Proste działania</title>
+        <style>
+            p{
+                padding: 0;
+                margin: 0;
+                display: inline;
+            }
+            img{
+                margin-bottom: 15px;
+            }
+            #container{
+                width: 800px;
+                height: 100%;
+            }
+            #menu{
+                width: 35%;
+                float: left;
+                height: 100%;
+            }
+            #tresc{
+                float: left;
+                width: 65%;
+                height: 100%;
+            }
+            #tresc>p{
+                font-style: italic;
+            }
+            button{
+                margin-right: 10px;
+            }
+            #error{
+                visibility: hidden;
+                color: red;
+            }
+        </style>
+        <script type="text/javascript" src="main.js" defer></script>
+    </head>
+    <body>
+        <div id="container">
+            <a href="index.html"><img src="baner.jpg" alt="baner"></a>
+            <div id="menu">
+                <p>Menu</p><br>
+                <p>- <a href="strona1.html">proste działania</a></p><br>
+                <p>- <a href="strona2.php">potęgowanie</a></p><br>
+            </div>
+            <div id="tresc">
+                <h1>PROSTE DZIAŁANIA</h1>
+                <p>Podaj pierwszą liczbę: </p> <input type="number" id="number1"> <br> <br>
+                <p>Podaj druga liczbę: </p> <input type="number" id="number2"> <br> <br>
+                <button onclick="add()" id="plus">DODAWANIE</button>
+                <button onclick="substract()" id="minus">ODEJMOWANIE</button>
+                <button onclick="multiply()" id="times">MNOŻENIE</button>
+                <button onclick="divide()" id="divide">DZIELENIE</button><br>
+                <p id="error"></p><br>
+                <p id="result"></p>
+            </div>
+        </div>
+    </body>
+</html>
