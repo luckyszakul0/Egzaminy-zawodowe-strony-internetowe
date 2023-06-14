@@ -5,6 +5,8 @@ The purpose of the repository is to:
 - For me: learn the materials that will be used on INF.03 exam and to polish my webdev skills
 - For others: get my solution to a problem that is presented in past E14, EE.09, INF.03 exams
 
+**I don't guarantee that the solutions are correct.**
+
 ---
 
 ## What are E14, EE.09, INF.03 exams?

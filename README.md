@@ -5,6 +5,8 @@ Celem tego repozytorium jest:
 - Dla mnie: nauczyć się materiału na egzamin zawodowy INF.03 i poprawić swoje umiejętności związane z programowaniem webowym
 - Dla innych: uzyskać moje rozwiązanie do zeszłych egzaminów E14, EE.09, INF.03
 
+**Nie gwarantuję, że rozwiązania są poprawne.**
+
 ---
 
 ## Czym są egzaminy E14, EE.09, INF.03?
