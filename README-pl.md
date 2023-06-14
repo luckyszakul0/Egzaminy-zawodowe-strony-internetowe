@@ -30,6 +30,6 @@ Pierwotnym założeniem jest, by w tygodniu ukazywał się przynajmniej jeden ro
 ### **Struktura plików i folderów**
 
 Bezpośrednimi dziećmi głównego repozytorium będą 3 foldery - każdy dla innej edycji egzaminu.  
-W każdym z tych folderów będą foldery, z których każdy poświęcony jest jednemu egzaminowi.  
+W każdym z tych folderów będą foldery, z których każdy poświęcony jest jednemu egzaminowi o nazwie z numerem miesiąca oraz roku, z którego jest egzamin.  
 W tych folderach struktura plików i folderów jest taka, o jaką prosi CKE w treści egzaminu.  
 Dodatkowo do każdego z nich dorzucony jest egzamin w formacie PDF pobrany ze strony [Arkusze.pl](https://arkusze.pl/technik-informatyk-egzamin-zawodowy/)
