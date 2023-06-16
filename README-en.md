@@ -34,4 +34,4 @@ Original idea is to publish at least one solved exam per week here.
 Direct children of the initial repository will be 3 folders - each is for a different edition of the exam.  
 In each one of these folders there will be other folders - one for each exam. Their naming is the number of the month and the number of the year in which the exam took place.  
 In these folders the file and folder structure will be the same as CKE desires in the exam tasks.  
-Additionally, in each of these folders will be the original exam in PDF format. All of them are downloaded from [Arkusze.pl](https://arkusze.pl/technik-informatyk-egzamin-zawodowy/)
+Additionally, in each of these folders there will be a txt file with link to the original exam from [Arkusze.pl](https://arkusze.pl/technik-informatyk-egzamin-zawodowy/) website.
