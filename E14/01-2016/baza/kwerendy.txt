@@ -1,0 +1,18 @@
+a. zwrócenie tytułów książek z wydawnictwa Ossolineum:
+
+    SELECT Tytul FROM ksiazki WHERE Wydawnictwo = "Ossolineum";
+
+
+b. zwrócenie wszystkich tytułów wraz z nazwiskiem autora, jakie znajdują się w bazie:
+
+    SELECT ksiazki.Tytul, autorzy.Nazwisko FROM ksiazki, autorzy WHERE ksiazki.AutorID = autorzy.IDAutor;
+
+
+c. zwrócenie numeru egzemplarza książki i jej tytułu, dla tych książek, które zostały wypożyczone:
+
+    SELECT egzemplarze.IDEgzemplarz, ksiazki.Tytul FROM ksiazki, egzemplarze WHERE egzemplarze.KsiazkaID = ksiazki.IDKsiazki AND egzemplarze.DoWypozyczenia = 0;
+
+
+d. dodanie rekordu do tabeli autorzy z danymi: ID - 3, Adam Asnyk:
+
+    INSERT INTO autorzy VALUES (3, "Adam", "Asnyk");
