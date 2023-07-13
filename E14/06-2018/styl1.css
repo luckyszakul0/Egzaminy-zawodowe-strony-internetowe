@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body, html{
+    background: #F6E5DC;
+    font-family: Tahoma;
+}
+
+#baner{
+    background: #2F180C;
+    text-align: center;
+    color: white;
+    height: 60px;
+}
+
+#panel-lewy{
+    width: 60%;
+    float: left;
+}
+
+#panel-prawy{
+    font-size: 200%;
+    padding: 50px;
+    float: left;
+}
+
+#panel-dolny{
+    background: #D0B6A8;
+    text-align: center;
+    padding: 30px;
+    clear: both;
+}
+
+#stopka{
+    background: #2F180C;
+    color: white;
+    height: 60px;
+}
+
+img{
+    height: 400px;
+}
+
+ul{
+    list-style-type: circle;
+}
