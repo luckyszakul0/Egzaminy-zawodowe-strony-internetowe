@@ -19,11 +19,24 @@
         <p><a href="./kadr.jpg">Pobierz obraz</a></p>
         <p><a href="repertuar-kin.pl" target="_blank">Sprawdź repertuar kin</a></p>
     </section>
-    <section id="panel-prawy">
-        <section id="panel-prawy-1"></section>
-        <section id="panel-prawy-2"></section>
-        <section id="panel-prawy-2"></section>
+    <section id="panel-prawy-1">
+        <h1>FILMOTEKA</h1>
     </section>
-    <section id="stopka"></section>
+    <section id="panel-prawy-2">
+        <form action="./dodaj.php" method="post">
+            Tytuł: <input type="text" name="tytul"><br>
+            Gatunek filmu: <input type="number" name="gatunek"><br>
+            Rok produkcji: <input type="number" name="rok"><br>
+            Ocena: <input type="number" name="ocena"><br>
+            <button type="reset">CZYŚĆ</button>
+            <button type="submit">DODAJ</button>
+        </form>
+    </section>
+    <section id="panel-prawy-2">
+        <img src="./kadr.jpg" alt="zdjęcia filmowe">
+    </section>
+    <section id="stopka">
+        <p>Autor strony: 0000000000</p>
+    </section>
 </body>
 </html>

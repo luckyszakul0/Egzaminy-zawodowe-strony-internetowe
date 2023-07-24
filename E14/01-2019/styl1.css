@@ -1,0 +1,56 @@
+
+body{
+    font-family: Helvetica, sans-serif;
+    width: 100%;
+}
+
+#panel-lewy{
+    background: navy;
+    color: white;
+    height: 700px;
+    width: 25%;
+    float: left;
+}
+
+#panel-prawy-1{
+    background: royalblue;
+    height: 100px;
+    width: 75%;
+    text-align: center;
+    float: left;
+}
+
+#panel-prawy-2{
+    background: steelblue;
+    height: 300px;
+    width: 75%;
+    float: left;
+}
+
+#panel-prawy-3{
+    background: royalblue;
+    height: 300px;
+    width: 75%;
+    text-align: center;
+    float: left;
+}
+
+#stopka{
+    background: steelblue;
+    text-align: center;
+    padding: 20px;
+    clear: both;
+}
+
+h1{
+    letter-spacing: 5px;
+}
+
+form{
+    margin: 30px;
+    line-height: 3;
+}
+
+form:hover{
+    background: deepskyblue;
+}
