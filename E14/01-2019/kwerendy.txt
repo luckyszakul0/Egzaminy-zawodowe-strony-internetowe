@@ -1,0 +1,7 @@
+zapytanie 1:    INSERT INTO filmy (tytul, rok, gatunki_id, ocena) VALUES ("Suburbicon", 2017, 5, 5);
+
+zapytanie 2:    SELECT filmy.tytul, gatunki.nazwa FROM filmy, gatunki WHERE filmy.gatunki_id = gatunki.id AND filmy.ocena = 6;
+
+zapytanie 3:    SELECT tytul, rok FROM filmy WHERE gatunki_id = 3 AND ocena = 5;
+
+zapytanie 4:    CREATE TABLE aktorzy(id int NOT NULL, imie text, nazwisko text);
