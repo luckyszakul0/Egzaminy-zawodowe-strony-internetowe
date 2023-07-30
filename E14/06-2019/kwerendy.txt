@@ -1,0 +1,7 @@
+zapytanie 1:    SELECT nazwa FROM towary WHERE promocja = 1;
+
+zapytanie 2:    SELECT cena FROM towary WHERE nazwa = "Cienkopis";
+
+zapytanie 3:    SELECT dostawcy.nazwa, COUNT(towary.idDostawcy) AS ilosc FROM dostawcy, towary WHERE dostawcy.id = towary.idDostawcy GROUP BY nazwa;
+
+zapytanie 4:    ALTER TABLE dostawcy ADD e_mail text;
