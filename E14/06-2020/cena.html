@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styl.css">
+    <script src="./skrypt.js" defer></script>
     <title>malarz</title>
 </head>
 <body>
@@ -15,10 +16,15 @@
         <a href="./mieszamy.html">Mieszamy</a><br>
         <a href="./cena.html">Wyceniamy</a>
     </section>
-    <section id="panel-prawy"></section>
+    <section id="panel-prawy">
+        <h3>Obliczanie na podstawie powierzchni zapotrzebowania na farbę</h3>
+        Podaj powierzchnię: <input type="number" id="powierzchnia"><br>
+        <button id="policz">Policz</button>
+        <p id="wynik"></p>
+    </section>
     <footer id="stopka">
-        <p>MALARZ</p>
-        <p>Stronę opracował: 0000000000</p>
+        MALARZ <br>
+        Stronę opracował: 0000000000
     </footer>
 </body>
 </html>
