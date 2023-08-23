@@ -1,0 +1,7 @@
+zapytanie 1:    SELECT nazwa, opis, cena FROM podzespoly WHERE dostepnosc = 1;
+
+zapytanie 2:    SELECT nazwa, opis, cena FROM podzespoly WHERE dostepnosc = 1 AND typy_id = 5;
+
+zapytanie 3:    SELECT podzespoly.nazwa, typy.kategoria FROM podzespoly, typy WHERE podzespoly.typy_id = typy.id;
+
+zapytanie 4:    UPDATE typy SET kategoria = "HDD i SSD" WHERE kategoria = "HDD";
