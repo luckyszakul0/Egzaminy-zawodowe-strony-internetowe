@@ -1,0 +1,7 @@
+zapytanie 1:    SELECT imie, nazwisko, miasto FROM klient WHERE miasto = "Legionowo" OR miasto = "Warszawa";
+
+zapytanie 2:    SELECT nazwa FROM produkty WHERE cena_brutto > 500;
+
+zapytanie 3:    SELECT kategorie.nazwa_kategorii, AVG(produkty.cena_brutto) AS srednia_cena FROM kategorie JOIN produkty ON kategorie.id_kat = produkty.id_kat GROUP BY kategorie.nazwa_kategorii;
+
+zapytanie 4:    SELECT zamowienia.id_zam, zamowienia.ilosc, zamowienia.wartosc, produkty.nazwa FROM zamowienia JOIN produkty ON produkty.id_prod = zamowienia.id_prod JOIN klient ON zamowienia.id_klient = klient.id WHERE klient.id = 2;
